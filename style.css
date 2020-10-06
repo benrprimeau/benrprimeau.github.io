@@ -13,12 +13,19 @@ body {
 	overflow-x: hidden;
 }
 
-ul {
+.content {
 	justify-content: center;
 	padding-top: 5vh;
 	padding-top; 5%;
 	padding-left: 15vh;
 	padding-right: 15%;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+}
+
+.link1 {
+	display: flex;
+	justify-content: center;
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
 }
@@ -42,4 +49,35 @@ ul {
 	padding-top; 15%;
 	font-family: 'Rubik', sans-serif;
 	font-size: 50px;
+}
+
+.banner2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 5vh;
+	padding-top; 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 50px;
+}
+
+.container {
+	display:flex;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 35vh;
+    justify-content: space-around;
+}
+.flex_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 20vw;
+    height: 25vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    background: #333333
 }
