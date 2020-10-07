@@ -28,6 +28,7 @@ body {
 	justify-content: center;
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
+	padding-bottom: 3vh
 }
 
 .grayBlock {
@@ -60,6 +61,14 @@ body {
 	font-size: 50px;
 }
 
+.subtitle_white {
+	display: flex;
+	justify-content: center;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
 .container {
 	display:flex;
     width: 90vw;
@@ -73,11 +82,22 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    width: 20vw;
+    width: 24vw;
     height: 25vh;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
-    background: #333333
+    background: #333333;
+    border-radius: 34px;
+}
+
+.flex_link {
+	text-decoration: none;
+	text-color: #ffffff;
+}
+
+.flex_link:visited {
+	text-decoration: none;
+	text-color: #ffffff;
 }
