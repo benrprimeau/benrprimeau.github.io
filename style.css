@@ -71,25 +71,51 @@ body {
 
 .container {
 	display:flex;
+	flex-direction: row;
     width: 90vw;
     padding-left: 5vw;
     padding-right: 5vw;
     height: 35vh;
+    min-height: 200px;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 700px) {
+	.container {
+	flex-direction: column;
+	height: 90vh;
+	width: 90vw;
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+    justify-content: space-around;
+	}
+}
+
 .flex_item {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin: auto;
     width: 24vw;
-    height: 25vh;
+    height: 20vh;
+    min-height: 190px;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     background: #333333;
     border-radius: 34px;
+}
+
+@media only screen and (max-width: 700px) {
+	.flex_item {
+    width: 80vw;
+    height: 25vh;
+    min-width: 190px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	}
 }
 
 .flex_link {
