@@ -29,18 +29,37 @@ body {
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
 	padding-bottom: 3vh
+	color: #ababcc;
 }
 
-.grayBlock {
-	color: #ffffff;
-	background-color: #333333;
+.link1:visited {
+	display: flex;
+	justify-content: center;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	padding-bottom: 3vh
+	text-decoration: none;
+	color: #5656aa;
+}
+
+.contentBlock {
 	position: relative;
 	top: -21px;
 	left: 0;
 	width: 100%;
-	height: 110vh;
 	margin: 0;
+	padding-bottom: 5vh;
 	overflow: hidden;
+}
+
+.white {
+	color: #333333;
+	background-color: #ababcc;
+}
+
+.gray {
+	color: #ffffff;
+	background-color: #333333;
 }
 
 .banner {
@@ -61,19 +80,17 @@ body {
 	font-size: 50px;
 }
 
-.subtitle_white {
+.subtitle {
 	display: flex;
 	justify-content: center;
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
-	color: #ffffff;
 }
 
-.par_white {
+.par {
 	justify-content: left;
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
-	color: #ffffff;
 	padding-top: 5vh;
 	padding-left: 5vw;
 }
@@ -111,7 +128,6 @@ body {
     padding-right: 2.5vw;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
-    background: #333333;
     border-radius: 34px;
 }
 
