@@ -131,6 +131,16 @@ body {
     border-radius: 34px;
 }
 
+.wideLeft {
+	width: 30vw;
+	margin-left: 8vw;
+}
+
+.wideRight {
+	width: 30vw;
+	margin-right: 8vw
+}
+
 @media only screen and (max-width: 700px) {
 	.flex_item {
     width: 80vw;
