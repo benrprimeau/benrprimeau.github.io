@@ -106,7 +106,7 @@ body {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 100vh) {
 	.container {
 	flex-direction: column;
 	height: 90vh;
@@ -141,7 +141,11 @@ body {
 	margin-right: 8vw
 }
 
-@media only screen and (max-width: 700px) {
+.showMobile {
+	display: none;
+}
+
+@media only screen and (max-width: 100vh) {
 	.flex_item {
     width: 80vw;
     height: 25vh;
@@ -150,6 +154,24 @@ body {
     margin-bottom: 10vh;
     margin-top: 10px;
     margin-bottom: 10px;
+	}
+
+	.wideLeft {
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+
+	.wideRight {
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+
+	.showMobile {
+		display: block;
+	}
+
+	.hideMobile {
+		display: none;
 	}
 }
 
